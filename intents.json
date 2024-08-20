@@ -1,0 +1,65 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {
+            "tag": "Offer accept",
+            "patterns": ["How do I accept my offer", "How do I accept my GBC offer"],
+            "responses": ["Log on to ontariocolleges.ca to accept your offer. This acceptance will be downloaded to George Brown College the next business day."]
+        },
+        {
+            "tag": "course_enrollment",
+            "patterns": ["How can I enroll in courses?", "What's the process for course registration?"],
+            "responses": ["You can enroll in courses through your STU-VIEW account. Enrollment dates and instructions are provided each semester and can be accessed from the 'Registration' section."]
+        },
+        {
+            "tag": "financial_aid",
+            "patterns": ["What financial aid options are available?", "How do I apply for scholarships?"],
+            "responses": ["George Brown offers a range of financial aid options including scholarships, bursaries, and grants. You can apply through your STU-VIEW portal under the 'Financial Aid' section."]
+        },
+        {
+            "tag": "academic_support",
+            "patterns": ["Where can I get tutoring help?", "I need help with my studies, what resources are available?"],
+            "responses": ["Academic support is available through the Learning Commons. You can access tutoring services, study workshops, and other resources to help you succeed."]
+        },
+        {
+            "tag": "campus_facilities",
+            "patterns": ["What facilities are available at the campus?", "Tell me about the campus facilities"],
+            "responses": ["Our campus includes libraries, sports facilities, student lounges, and dining areas. You can learn more about specific facilities on the George Brown College website or by visiting the campus."]
+        },
+        {
+            "tag": "event_info",
+            "patterns": ["What events are happening this month?", "Show me the college events calendar"],
+            "responses": ["You can find the latest events and activities happening at George Brown on our Events Calendar available on the website. Check regularly for new updates!"]
+        },
+        {
+            "tag": "covid_guidelines",
+            "patterns": ["What are the current COVID-19 guidelines at campus?", "Do I need to wear a mask on campus?"],
+            "responses": ["Current COVID-19 guidelines require masks in indoor settings and recommend regular sanitization. For the latest updates, please check our official COVID-19 response page on the George Brown College website."]
+        },
+       {
+            "tag": "application_and_transcripts",
+            "patterns": ["Where do I send my transcripts?", "Where should I send my transcripts?"],
+            "responses": ["Official transcripts can be sent via ontariocolleges.ca. The documents will be then forwarded to George Brown College. Please note that it can take up to two weeks for documents to reach the college and another two to three weeks to be processed."]
+        },
+       {
+            "tag": "program_overview",
+            "patterns": ["What is the T431 program overview?", "What are the key components of the T431 course?", "What is the T431 course description?"],
+            "responses": ["In our innovative Applied A.I. Solutions Development one-year graduate certificate program, you'll immerse yourself in a cross-disciplinary blend of computer science, mathematics, and business, equipping you with the expertise to craft solutions across industries using artificial intelligence (A.I.), machine learning, deep learning, and data science/analytics.This unique program merges computer science, math, and business with a design-thinking approach to produce machine-learning/deep-learning models and intuitive dashboards to communicate results and findings. As a student, you'll also receive comprehensive training in tailoring your presentations to target audiences, including technical experts, business stakeholders, and potential investors.If you apply to the May 2024/25 intake for this program, you will start in May 2025. To begin your studies in May 2024, apply to the 2023/24 academic year."]  
+        },
+       {
+            "tag": "program_overview",
+            "patterns": ["What hardware is required for the T431 course?", "What technical specifications are needed for the T431 program?"],
+            "responses": ["This program requires you to have access to a personal computer with the following specifications: 8 GB minimum (16 GB RAM recommended0 256 GB SSD Hard Drive (500+ GB is optimal) Quad-core i5/i7 2.4GHz or better Webcam"]
+        },
+       {
+            "tag": "career_options",
+            "patterns": ["What job opportunities are available through the T431 program?", "What are the potential job prospects with a T431 certification?"],
+            "responses": ["Graduates of this program may apply for positions that include: data scientist, data analyst, data management specialist, data management specialist, machine-learning engineer, machine-learning technologist, artificial intelligence practitioner, full-stack data scientist (who is qualified to fill all the above roles)"]
+        }
+
+    ]
+}
